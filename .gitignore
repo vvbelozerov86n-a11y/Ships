@@ -1,0 +1,12 @@
+node_modules/
+review/
+screenshots/
+_shots/
+tmp*/
+.DS_Store
+Thumbs.db
+
+# Локальные материалы и предыдущие сборки
+MAX-game-review.md
+Rocket-Rumble-Desktop.html
+Rocket-Rumble-Desktop-v2.html
