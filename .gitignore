@@ -10,3 +10,9 @@ Thumbs.db
 MAX-game-review.md
 Rocket-Rumble-Desktop.html
 Rocket-Rumble-Desktop-v2.html
+Rocket-Rumble-Desktop-v4.html
+generated-images/
+
+# Служебные данные инструментов
+.mimosa/
+.video_agent/

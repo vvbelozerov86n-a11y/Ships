@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
   let pathname;
   try { pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname); }
   catch { res.writeHead(400); res.end('Bad request'); return; }
-  if (pathname === '/') pathname = '/Rocket-Rumble-Desktop-v3.html';
+  if (pathname === '/') pathname = '/Rocket-Rumble-Desktop-v5.html';
   const file = path.resolve(root, '.' + pathname);
   if (file !== root && !file.startsWith(root + path.sep)) { res.writeHead(403); res.end('Forbidden'); return; }
   fs.stat(file, (error, stat) => {
